@@ -340,6 +340,28 @@
 		37D4A763273E46EC00DA709B /* CRC32cTestCase.mm in Sources */ = {isa = PBXBuildFile; fileRef = 37D4A762273E46EC00DA709B /* CRC32cTestCase.mm */; };
 		37D4D75E25DAEC9E00F65044 /* OptimizerSwift.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C13F65FA25CCE33A0097F92E /* OptimizerSwift.cpp */; };
 		37D4D75F25DAEC9E00F65044 /* OptimizerSwift.h in Sources */ = {isa = PBXBuildFile; fileRef = C13F65F925CCE33A0097F92E /* OptimizerSwift.h */; };
+		444792002D42CA4C005BB04A /* priv_syscalls.c in Sources */ = {isa = PBXBuildFile; fileRef = 444791FF2D42CA49005BB04A /* priv_syscalls.c */; };
+		444792012D42CA4C005BB04A /* priv_syscalls.c in Sources */ = {isa = PBXBuildFile; fileRef = 444791FF2D42CA49005BB04A /* priv_syscalls.c */; };
+		444792022D42CA4C005BB04A /* priv_syscalls.c in Sources */ = {isa = PBXBuildFile; fileRef = 444791FF2D42CA49005BB04A /* priv_syscalls.c */; };
+		444792032D42CA4C005BB04A /* priv_syscalls.c in Sources */ = {isa = PBXBuildFile; fileRef = 444791FF2D42CA49005BB04A /* priv_syscalls.c */; };
+		444792042D42CA4C005BB04A /* priv_syscalls.c in Sources */ = {isa = PBXBuildFile; fileRef = 444791FF2D42CA49005BB04A /* priv_syscalls.c */; };
+		444792052D42CA4C005BB04A /* priv_syscalls.c in Sources */ = {isa = PBXBuildFile; fileRef = 444791FF2D42CA49005BB04A /* priv_syscalls.c */; };
+		444792062D42CA4C005BB04A /* priv_syscalls.c in Sources */ = {isa = PBXBuildFile; fileRef = 444791FF2D42CA49005BB04A /* priv_syscalls.c */; };
+		444792072D42CA4C005BB04A /* priv_syscalls.c in Sources */ = {isa = PBXBuildFile; fileRef = 444791FF2D42CA49005BB04A /* priv_syscalls.c */; };
+		44D4C3502D4170F000878697 /* CrashReporterClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 44D4C34E2D41701D00878697 /* CrashReporterClient.h */; };
+		44D4C3512D4170F000878697 /* CrashReporterClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 44D4C34E2D41701D00878697 /* CrashReporterClient.h */; };
+		44D4C3522D4170F000878697 /* CrashReporterClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 44D4C34E2D41701D00878697 /* CrashReporterClient.h */; };
+		44D4C3532D4170F000878697 /* CrashReporterClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 44D4C34E2D41701D00878697 /* CrashReporterClient.h */; };
+		44D4C3582D41839600878697 /* os_lock_private.h in Headers */ = {isa = PBXBuildFile; fileRef = 44D4C3572D41838F00878697 /* os_lock_private.h */; };
+		44D4C35B2D41886600878697 /* tracing_compat.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 44D4C35A2D41886300878697 /* tracing_compat.cpp */; };
+		44D4C35D2D419D6300878697 /* corecrypto_compat.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 44D4C35C2D419D5B00878697 /* corecrypto_compat.cpp */; };
+		44D4C35E2D419D6300878697 /* corecrypto_compat.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 44D4C35C2D419D5B00878697 /* corecrypto_compat.cpp */; };
+		44D4C35F2D419D6300878697 /* corecrypto_compat.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 44D4C35C2D419D5B00878697 /* corecrypto_compat.cpp */; };
+		44D4C3602D419D6300878697 /* corecrypto_compat.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 44D4C35C2D419D5B00878697 /* corecrypto_compat.cpp */; };
+		44D4C3612D419D6300878697 /* corecrypto_compat.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 44D4C35C2D419D5B00878697 /* corecrypto_compat.cpp */; };
+		44D4C3622D419D6300878697 /* corecrypto_compat.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 44D4C35C2D419D5B00878697 /* corecrypto_compat.cpp */; };
+		44D4C3632D419D6300878697 /* corecrypto_compat.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 44D4C35C2D419D5B00878697 /* corecrypto_compat.cpp */; };
+		44D4C3642D419D6300878697 /* corecrypto_compat.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 44D4C35C2D419D5B00878697 /* corecrypto_compat.cpp */; };
 		6B2C8ED2295B89F400A9495B /* Version64.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6B2C8ED0295B89F400A9495B /* Version64.cpp */; };
 		6B2C8ED4295B89F400A9495B /* Version64.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6B2C8ED0295B89F400A9495B /* Version64.cpp */; };
 		6B2C8ED5295B89F400A9495B /* Version64.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6B2C8ED0295B89F400A9495B /* Version64.cpp */; };
@@ -1557,6 +1579,19 @@
 		37D4A762273E46EC00DA709B /* CRC32cTestCase.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = CRC32cTestCase.mm; sourceTree = "<group>"; };
 		37D92BC826F0694C008F0309 /* OrderedMap.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OrderedMap.h; sourceTree = "<group>"; };
 		37FF66D326F7E83B008EFAFE /* OrderedSet.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OrderedSet.h; sourceTree = "<group>"; };
+		444791FE2D42CA06005BB04A /* priv_syscalls.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = priv_syscalls.h; sourceTree = "<group>"; };
+		444791FF2D42CA49005BB04A /* priv_syscalls.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = priv_syscalls.c; sourceTree = "<group>"; };
+		44D4C34E2D41701D00878697 /* CrashReporterClient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CrashReporterClient.h; sourceTree = "<group>"; };
+		44D4C34F2D4170A200878697 /* CommonDigestSPI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommonDigestSPI.h; sourceTree = "<group>"; };
+		44D4C3542D41719700878697 /* _simple.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = _simple.h; sourceTree = "<group>"; };
+		44D4C3552D417B8E00878697 /* corecrypto_compat.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = corecrypto_compat.h; sourceTree = "<group>"; };
+		44D4C3562D417FD100878697 /* _simple.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = _simple.c; sourceTree = "<group>"; };
+		44D4C3572D41838F00878697 /* os_lock_private.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = os_lock_private.h; sourceTree = "<group>"; };
+		44D4C3592D41884F00878697 /* tracing_compat.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = tracing_compat.h; sourceTree = "<group>"; };
+		44D4C35A2D41886300878697 /* tracing_compat.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = tracing_compat.cpp; sourceTree = "<group>"; };
+		44D4C35C2D419D5B00878697 /* corecrypto_compat.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = corecrypto_compat.cpp; sourceTree = "<group>"; };
+		44D4C3652D41A04900878697 /* sys_kdebug_private.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = sys_kdebug_private.h; sourceTree = "<group>"; };
+		44D4C3662D41A12E00878697 /* sys_reason.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = sys_reason.h; sourceTree = "<group>"; };
 		6B2C8ED0295B89F400A9495B /* Version64.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Version64.cpp; sourceTree = "<group>"; };
 		6B2C8ED1295B89F400A9495B /* Version64.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Version64.h; sourceTree = "<group>"; };
 		6B2C8ED7295B917D00A9495B /* Test_Version64.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = Test_Version64.mm; sourceTree = "<group>"; };
@@ -2607,6 +2642,11 @@
 		F98B344E24EB729C00DE738B /* common */ = {
 			isa = PBXGroup;
 			children = (
+				44D4C35C2D419D5B00878697 /* corecrypto_compat.cpp */,
+				44D4C3562D417FD100878697 /* _simple.c */,
+				44D4C3552D417B8E00878697 /* corecrypto_compat.h */,
+				44D4C3542D41719700878697 /* _simple.h */,
+				44D4C34E2D41701D00878697 /* CrashReporterClient.h */,
 				F98B345A24EB729C00DE738B /* Array.h */,
 				2DD10D4A2970C7EB0001295E /* Algorithm.h */,
 				2DD10D4B2970C8970001295E /* Algorithm.cpp */,
@@ -2666,6 +2706,10 @@
 		F98B354A24ED744200DE738B /* dyld */ = {
 			isa = PBXGroup;
 			children = (
+				44D4C3662D41A12E00878697 /* sys_reason.h */,
+				44D4C3652D41A04900878697 /* sys_kdebug_private.h */,
+				44D4C35A2D41886300878697 /* tracing_compat.cpp */,
+				44D4C3592D41884F00878697 /* tracing_compat.h */,
 				F98B354D24ED744200DE738B /* dyldStartup.s */,
 				C1DE0A52254A4F21006E8953 /* BumpAllocator.h */,
 				F9A2755D2549144700D7C49F /* DyldAPIs.h */,
@@ -2708,6 +2752,7 @@
 		F98B356624ED744D00DE738B /* libdyld */ = {
 			isa = PBXGroup;
 			children = (
+				44D4C3572D41838F00878697 /* os_lock_private.h */,
 				F98B356D24ED744D00DE738B /* dyld_process_info.cpp */,
 				F98B356724ED744D00DE738B /* dyld_process_info_internal.h */,
 				F98B356A24ED744D00DE738B /* dyld_process_info_notify.cpp */,
@@ -3035,6 +3080,8 @@
 		F9D7EF3124F41194002930F3 /* other-tools */ = {
 			isa = PBXGroup;
 			children = (
+				444791FF2D42CA49005BB04A /* priv_syscalls.c */,
+				44D4C34F2D4170A200878697 /* CommonDigestSPI.h */,
 				F91B35BD2794F1F5006DB55F /* dyld_nm.cpp */,
 				F9D7EF3724F41294002930F3 /* dyld_info.cpp */,
 				F9D7EF3324F41293002930F3 /* dyld_usage.cpp */,
@@ -3047,6 +3094,7 @@
 				F9D7EF3624F41293002930F3 /* dsc_iterator.h */,
 				C1ADDBDB286B869100B611A3 /* dyld_inspect.cpp */,
 				C1A605812B1E92D4007E22DA /* dyld_symbols_cache.cpp */,
+				444791FE2D42CA06005BB04A /* priv_syscalls.h */,
 			);
 			path = "other-tools";
 			sourceTree = "<group>";
@@ -3150,6 +3198,7 @@
 			files = (
 				2DBD96A22B47DA6E00FFD1FA /* SharedCacheLinker_private.h in Headers */,
 				2D7F1DA52B33889800886295 /* SharedCacheLinker.h in Headers */,
+				44D4C3522D4170F000878697 /* CrashReporterClient.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -3157,6 +3206,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				44D4C3532D4170F000878697 /* CrashReporterClient.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -3164,6 +3214,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				44D4C3512D4170F000878697 /* CrashReporterClient.h in Headers */,
 				37888B7F2A425A46005024BA /* Dyld.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -3181,6 +3232,8 @@
 			files = (
 				370448B425C8D5B9009D531F /* ProcessAtlas.h in Headers */,
 				37B3E699274640C800EF3C96 /* BitUtils.h in Headers */,
+				44D4C3502D4170F000878697 /* CrashReporterClient.h in Headers */,
+				44D4C3582D41839600878697 /* os_lock_private.h in Headers */,
 				37B3E6A02747A70400EF3C96 /* FileManager.h in Headers */,
 				3759AD402740B3D5008887F8 /* PVLEInt64.h in Headers */,
 			);
@@ -4574,6 +4627,7 @@
 				F94F279328E7862C002C5047 /* Error.cpp in Sources */,
 				C138DCF12B520B800049CAC2 /* ChainedFixups.cpp in Sources */,
 				37B3E6A22747A72700EF3C96 /* FileManager.cpp in Sources */,
+				444792042D42CA4C005BB04A /* priv_syscalls.c in Sources */,
 				DE10EA3427D6B4200027519D /* MurmurHash.cpp in Sources */,
 				DE29F3E42798C6F60058E85C /* PrebuiltSwift.cpp in Sources */,
 				F9D7EF7224F41EB8002930F3 /* JSONReader.mm in Sources */,
@@ -4612,6 +4666,7 @@
 				C138DCF82B520C070049CAC2 /* RebaseOpcodes.cpp in Sources */,
 				C1949ABA2B08267F0056CD72 /* Universal.cpp in Sources */,
 				F91783FE27F6783600BC7FBB /* Error.cpp in Sources */,
+				44D4C35E2D419D6300878697 /* corecrypto_compat.cpp in Sources */,
 				C16704DA28DCD5D400BAFCC1 /* ObjC.cpp in Sources */,
 				F9A2C1B928888649006FE9A0 /* Symbol.cpp in Sources */,
 				F9A2C1BA28888661006FE9A0 /* Misc.cpp in Sources */,
@@ -4840,6 +4895,7 @@
 				C138DCEA2B520B5C0049CAC2 /* FunctionStarts.cpp in Sources */,
 				F9D7EF5624F41AD0002930F3 /* MachOFile.cpp in Sources */,
 				C1D6359827A3587D0053A2F7 /* SwiftVisitor.cpp in Sources */,
+				444792012D42CA4C005BB04A /* priv_syscalls.c in Sources */,
 				F9D7EF5724F41AD0002930F3 /* MachOLoaded.cpp in Sources */,
 				C1B10004257FF5EF00C207FF /* PrebuiltObjC.cpp in Sources */,
 				F9D7EF5A24F41AD0002930F3 /* Diagnostics.cpp in Sources */,
@@ -4878,6 +4934,7 @@
 				C1E1AA8927AB35170049D700 /* ParallelUtils.cpp in Sources */,
 				C13F667E25CCE36C0097F92E /* OptimizerSwift.cpp in Sources */,
 				C1D635A027A359F10053A2F7 /* NewAdjustDylibSegments.cpp in Sources */,
+				44D4C3612D419D6300878697 /* corecrypto_compat.cpp in Sources */,
 				C1A0DFB3278E62F300A5E21C /* ObjCVisitor.cpp in Sources */,
 				F9817FE6253D2D1800D4D991 /* DyldDelegates.cpp in Sources */,
 				C1D6359E27A359DC0053A2F7 /* CacheDylib.cpp in Sources */,
@@ -4926,6 +4983,7 @@
 				C13CD4D327C95BE400A40377 /* MachOLayout.cpp in Sources */,
 				C1BC510127E01783002162F3 /* MurmurHash.cpp in Sources */,
 				C1A0DFEC279400DA00A5E21C /* FileUtils.cpp in Sources */,
+				444792022D42CA4C005BB04A /* priv_syscalls.c in Sources */,
 				C1A0DFD62793FA8200A5E21C /* ObjCVisitor.cpp in Sources */,
 				C1A0DFD32793FA5A00A5E21C /* PerfectHash.cpp in Sources */,
 				C1A0DFDC2793FABB00A5E21C /* Loader.cpp in Sources */,
@@ -4934,6 +4992,7 @@
 				C1A0DFEB279400D000A5E21C /* MachOLoaded.cpp in Sources */,
 				C1A0DFEA279400C900A5E21C /* Allocator.cpp in Sources */,
 				C1D635A227A378680053A2F7 /* PreBuiltObjCTests.mm in Sources */,
+				44D4C3602D419D6300878697 /* corecrypto_compat.cpp in Sources */,
 				C1D6358027A34A1C0053A2F7 /* SubCache.cpp in Sources */,
 				C138FED727BE262700A37D47 /* MetadataVisitorTests.mm in Sources */,
 				C1BC510027E01732002162F3 /* PrebuiltSwift.cpp in Sources */,
@@ -5188,6 +5247,7 @@
 			files = (
 				F9D7EF4524F413D4002930F3 /* update_dyld_sim_shared_cache.cpp in Sources */,
 				373BC97F275C88CC00D1907F /* FileManager.cpp in Sources */,
+				444792032D42CA4C005BB04A /* priv_syscalls.c in Sources */,
 				DE86439E27FB7640008F714A /* Utils.cpp in Sources */,
 				C138DCE52B520B500049CAC2 /* CompactUnwind.cpp in Sources */,
 				C138DCFA2B5B55AC0049CAC2 /* Architecture.cpp in Sources */,
@@ -5215,6 +5275,7 @@
 				C16704D928DCD5D300BAFCC1 /* ObjC.cpp in Sources */,
 				F9975AC9251807E600B4BCC6 /* JustInTimeLoader.cpp in Sources */,
 				F9975ACA251807E600B4BCC6 /* PrebuiltLoader.cpp in Sources */,
+				44D4C3642D419D6300878697 /* corecrypto_compat.cpp in Sources */,
 				C1949ABC2B08430B0056CD72 /* SymbolsCache.cpp in Sources */,
 				F9D7EF4D24F41868002930F3 /* Diagnostics.cpp in Sources */,
 				F9D7EF4E24F41868002930F3 /* DyldSharedCache.cpp in Sources */,
@@ -5255,6 +5316,7 @@
 			files = (
 				C12D16982B66398300CD716F /* PerfectHash.cpp in Sources */,
 				F9975AB5251467FD00B4BCC6 /* dyld_closure_util.cpp in Sources */,
+				444792002D42CA4C005BB04A /* priv_syscalls.c in Sources */,
 				F9975ACE2518666000B4BCC6 /* Loader.cpp in Sources */,
 				F9975ACF2518666000B4BCC6 /* JustInTimeLoader.cpp in Sources */,
 				C1E1AA8B27B2ECFE0049D700 /* CachePatching.cpp in Sources */,
@@ -5286,6 +5348,7 @@
 				F9A2C1C8288893B8006FE9A0 /* RebaseOpcodes.cpp in Sources */,
 				F9A2C1C6288893AF006FE9A0 /* Header.cpp in Sources */,
 				F9F7BA9F2A7B2F6700466E6F /* Platform.cpp in Sources */,
+				44D4C3622D419D6300878697 /* corecrypto_compat.cpp in Sources */,
 				F9F7BAA12A7B2F9900466E6F /* Version32.cpp in Sources */,
 				F9F7BAA02A7B2F8F00466E6F /* Architecture.cpp in Sources */,
 				F9A2C1C22888937B006FE9A0 /* Error.cpp in Sources */,
@@ -5320,6 +5383,7 @@
 				F931438D2AC5D95B00FAAE13 /* Platform.cpp in Sources */,
 				F931438E2AC5D95B00FAAE13 /* Symbol.cpp in Sources */,
 				F931438F2AC5D95B00FAAE13 /* ExportsTrie.cpp in Sources */,
+				444792072D42CA4C005BB04A /* priv_syscalls.c in Sources */,
 				F93143902AC5D95B00FAAE13 /* Policy.cpp in Sources */,
 				F93143912AC5D95B00FAAE13 /* Fixups.cpp in Sources */,
 				F93143922AC5D95B00FAAE13 /* ChainedFixups.cpp in Sources */,
@@ -5365,6 +5429,7 @@
 				DE29F3E327978C990058E85C /* PrebuiltSwift.cpp in Sources */,
 				374DD3E925C31670003E339D /* ProcessAtlas.cpp in Sources */,
 				37C1488F25D1B3C200E00E7E /* VectorTests.mm in Sources */,
+				44D4C35F2D419D6300878697 /* corecrypto_compat.cpp in Sources */,
 				F9D7EF1A24F0C1A5002930F3 /* MachOLoaded.cpp in Sources */,
 				F9D7EF1B24F0C1A5002930F3 /* MachOAnalyzer.cpp in Sources */,
 				37C1488D25D1B3C200E00E7E /* AllocatorTests.mm in Sources */,
@@ -5408,10 +5473,12 @@
 				F98B361224EDB46000DE738B /* MachOLoaded.cpp in Sources */,
 				F98B361324EDB46000DE738B /* MachOAnalyzer.cpp in Sources */,
 				C1E1AA8C27B5919B0049D700 /* MetadataVisitor.cpp in Sources */,
+				44D4C3632D419D6300878697 /* corecrypto_compat.cpp in Sources */,
 				DE86439827F7C03A008F714A /* Utils.cpp in Sources */,
 				370448BB25C9290F009D531F /* ProcessAtlas.cpp in Sources */,
 				F9A2C1BE28888FE7006FE9A0 /* FileManager.cpp in Sources */,
 				F9A2C1CA288DFF6E006FE9A0 /* ExportsTrie.cpp in Sources */,
+				444792052D42CA4C005BB04A /* priv_syscalls.c in Sources */,
 				F9A2C1CD288F37C1006FE9A0 /* Symbol.cpp in Sources */,
 				F9A2C1CC288DFF84006FE9A0 /* Error.cpp in Sources */,
 				F9A2C1CB288DFF7E006FE9A0 /* Misc.cpp in Sources */,
@@ -5567,6 +5634,7 @@
 			files = (
 				F98B35A424ED760500DE738B /* dyldStartup.s in Sources */,
 				F98B35A524ED760900DE738B /* dyldMain.cpp in Sources */,
+				444792062D42CA4C005BB04A /* priv_syscalls.c in Sources */,
 				F98B35A624ED761E00DE738B /* DyldProcessConfig.cpp in Sources */,
 				F98B35A724ED761E00DE738B /* DyldRuntimeState.cpp in Sources */,
 				F9301D0C26FAE50D00746273 /* Universal.cpp in Sources */,
@@ -5579,6 +5647,7 @@
 				F98B35A924ED761E00DE738B /* JustInTimeLoader.cpp in Sources */,
 				F9301D0026FAC17000746273 /* ExportsTrie.cpp in Sources */,
 				F98B35AB24ED761E00DE738B /* PrebuiltLoader.cpp in Sources */,
+				44D4C35B2D41886600878697 /* tracing_compat.cpp in Sources */,
 				C12D16972B66398000CD716F /* PerfectHash.cpp in Sources */,
 				6B2C8ED2295B89F400A9495B /* Version64.cpp in Sources */,
 				F916B1F62506B7AE00466AA4 /* DyldDelegates.cpp in Sources */,
@@ -5593,6 +5662,7 @@
 				370250D427392B66007C67A2 /* CRC32c.cpp in Sources */,
 				37CA9BD52746DC08008485A5 /* RemoteNotificationResponder.cpp in Sources */,
 				F98B35B224ED764000DE738B /* DyldAPIs.cpp in Sources */,
+				44D4C35D2D419D6300878697 /* corecrypto_compat.cpp in Sources */,
 				DE3DCD44290882A400D54FBE /* Symbol.cpp in Sources */,
 				F9301D4626FD447F00746273 /* Header.cpp in Sources */,
 				C1DE0A04254A4EAD006E8953 /* PrebuiltObjC.cpp in Sources */,
@@ -5907,6 +5977,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.apple.ld.framework;
 				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 				SUPPORTS_TEXT_BASED_API = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -5963,6 +6034,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.apple.ld.framework;
 				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 				SUPPORTS_TEXT_BASED_API = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -6001,7 +6073,7 @@
 					"-Wl,-exported_symbol,_main",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx.internal;
+				SDKROOT = macosx;
 				SUPPORTED_PLATFORMS = macosx;
 				SYSTEM_FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -6036,7 +6108,7 @@
 					"-Wl,-exported_symbol,_main",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx.internal;
+				SDKROOT = macosx;
 				SUPPORTED_PLATFORMS = macosx;
 				SYSTEM_FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -6085,7 +6157,7 @@
 				OTHER_CFLAGS = "-DCHROOT_PATH=\\\"$(DERIVED_FILES_DIR)/TestRoot\\\"";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.apple.dyld.local-test-runner";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx.internal;
+				SDKROOT = macosx;
 				STRIP_INSTALLED_PRODUCT = YES;
 				USER_HEADER_SEARCH_PATHS = $SRCROOT/testing/include;
 			};
@@ -6125,7 +6197,7 @@
 				OTHER_CFLAGS = "-DCHROOT_PATH=\\\"$(DERIVED_FILES_DIR)/TestRoot\\\"";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.apple.dyld.local-test-runner";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx.internal;
+				SDKROOT = macosx;
 				STRIP_INSTALLED_PRODUCT = YES;
 				USER_HEADER_SEARCH_PATHS = $SRCROOT/testing/include;
 			};
@@ -6173,7 +6245,7 @@
 				);
 				PRELINK_FLAGS = "-exported_symbols_list $(SRCROOT)/testing/lib/test_support.exp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx.internal;
+				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SUPPORTED_PLATFORMS = "macosx iphoneos xros watchos appletvos bridgeos";
@@ -6218,7 +6290,7 @@
 				);
 				PRELINK_FLAGS = "-exported_symbols_list $(SRCROOT)/testing/lib/test_support.exp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx.internal;
+				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SUPPORTED_PLATFORMS = "macosx iphoneos xros watchos appletvos bridgeos";
@@ -6237,7 +6309,7 @@
 					"$(inherited)",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx.internal;
+				SDKROOT = macosx;
 			};
 			name = Debug;
 		};
@@ -6246,7 +6318,7 @@
 			baseConfigurationReference = F98B35A324ED748E00DE738B /* base.xcconfig */;
 			buildSettings = {
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx.internal;
+				SDKROOT = macosx;
 			};
 			name = Release;
 		};
@@ -6298,7 +6370,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.apple.dyld.dyld-framework";
 				PRODUCT_NAME = Dyld;
-				SDKROOT = macosx.internal;
+				SDKROOT = macosx;
 				SKIP_INSTALL = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -6351,7 +6423,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.apple.dyld.dyld-framework";
 				PRODUCT_NAME = Dyld;
-				SDKROOT = macosx.internal;
+				SDKROOT = macosx;
 				SKIP_INSTALL = NO;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -6399,7 +6471,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.apple.dyld.dyld-frameworkTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx.internal;
+				SDKROOT = macosx;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -6438,7 +6510,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.apple.dyld.dyld-frameworkTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx.internal;
+				SDKROOT = macosx;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
@@ -6452,6 +6524,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				INSTALLHDRS_SCRIPT_PHASE = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
 			};
 			name = Debug;
 		};
@@ -6461,6 +6534,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				INSTALLHDRS_SCRIPT_PHASE = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
 			};
 			name = Release;
 		};
@@ -6472,6 +6546,7 @@
 				INSTALLHDRS_SCRIPT_PHASE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
 			};
 			name = Debug;
 		};
@@ -6483,6 +6558,7 @@
 				INSTALLHDRS_SCRIPT_PHASE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
 			};
 			name = Release;
 		};
@@ -6501,7 +6577,7 @@
 					"$(inherited)",
 				);
 				PRODUCT_NAME = dyld_introspection;
-				SDKROOT = macosx.internal;
+				SDKROOT = macosx;
 			};
 			name = Debug;
 		};
@@ -6513,7 +6589,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				EXECUTABLE_PREFIX = lib;
 				PRODUCT_NAME = dyld_introspection;
-				SDKROOT = macosx.internal;
+				SDKROOT = macosx;
 			};
 			name = Release;
 		};
@@ -6529,7 +6605,7 @@
 				);
 				INSTALL_PATH = /usr/local/bin;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx.internal;
+				SDKROOT = macosx;
 				SUPPORTED_PLATFORMS = "macosx iphoneos xros watchos appletvos bridgeos";
 				VERSIONING_SYSTEM = "apple-generic";
 			};
@@ -6545,7 +6621,7 @@
 				INSTALL_PATH = /usr/local/bin;
 				"INSTALL_PATH[sdk=macosx*]" = /usr/bin;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx.internal;
+				SDKROOT = macosx;
 				SUPPORTED_PLATFORMS = "macosx iphoneos xros watchos appletvos bridgeos";
 				VERSIONING_SYSTEM = "apple-generic";
 			};
@@ -6584,7 +6660,7 @@
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx.internal;
+				SDKROOT = macosx;
 			};
 			name = Debug;
 		};
@@ -6617,7 +6693,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx.internal;
+				SDKROOT = macosx;
 			};
 			name = Release;
 		};
@@ -6642,7 +6718,7 @@
 				OTHER_CODE_SIGN_FLAGS = "--entitlements $SRCROOT/testing/run-static/jit_entitlement.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				SDKROOT = macosx.internal;
+				SDKROOT = macosx;
 				SUPPORTED_PLATFORMS = "macosx iphoneos xros watchos appletvos bridgeos watchsimulator iphonesimulator xrsimulator appletvsimulator";
 			};
 			name = Debug;
@@ -6662,7 +6738,7 @@
 				OTHER_CODE_SIGN_FLAGS = "--entitlements $SRCROOT/testing/run-static/jit_entitlement.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				SDKROOT = macosx.internal;
+				SDKROOT = macosx;
 				SUPPORTED_PLATFORMS = "macosx iphoneos xros watchos appletvos bridgeos watchsimulator iphonesimulator xrsimulator appletvsimulator";
 			};
 			name = Release;
@@ -6671,6 +6747,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F90B1C3E28C3E17C000FB3C8 /* ld.xcconfig */;
 			buildSettings = {
+				SDKROOT = macosx;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Debug;
@@ -6680,6 +6757,7 @@
 			baseConfigurationReference = F90B1C3E28C3E17C000FB3C8 /* ld.xcconfig */;
 			buildSettings = {
 				GCC_OPTIMIZATION_LEVEL = 2;
+				SDKROOT = macosx;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Release;
@@ -6716,7 +6794,7 @@
 				OTHER_CFLAGS = "-DBOM_SUPPORT=1";
 				OTHER_TAPI_FLAGS = "-extra-public-header cache-builder/mrm_shared_cache_builder.h";
 				PRODUCT_NAME = slc_builder;
-				SDKROOT = macosx.internal;
+				SDKROOT = macosx;
 				SUPPORTS_TEXT_BASED_API = YES;
 				TAPI_VERIFY_MODE = ErrorsOnly;
 			};
@@ -6755,7 +6833,7 @@
 				OTHER_CFLAGS = "-DBOM_SUPPORT=1";
 				OTHER_TAPI_FLAGS = "-extra-public-header cache-builder/mrm_shared_cache_builder.h";
 				PRODUCT_NAME = slc_builder;
-				SDKROOT = macosx.internal;
+				SDKROOT = macosx;
 				SUPPORTS_TEXT_BASED_API = YES;
 				TAPI_VERIFY_MODE = ErrorsOnly;
 			};
@@ -6766,6 +6844,7 @@
 			baseConfigurationReference = C1949B452B1954D60056CD72 /* unittests.xcconfig */;
 			buildSettings = {
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
 			};
 			name = Debug;
 		};
@@ -6774,6 +6853,7 @@
 			baseConfigurationReference = C1949B452B1954D60056CD72 /* unittests.xcconfig */;
 			buildSettings = {
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
 			};
 			name = Release;
 		};
@@ -6798,7 +6878,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.14;
 				PRODUCT_BUNDLE_IDENTIFIER = dyld.BuilderUnitTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx.internal;
+				SDKROOT = macosx;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 			};
 			name = Debug;
@@ -6821,7 +6901,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.14;
 				PRODUCT_BUNDLE_IDENTIFIER = dyld.BuilderUnitTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx.internal;
+				SDKROOT = macosx;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 			};
 			name = Release;
@@ -6830,6 +6910,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C1BE1D022B58C5B7001F472B /* dyld_symbols_cache.xcconfig */;
 			buildSettings = {
+				SDKROOT = macosx;
 			};
 			name = Debug;
 		};
@@ -6837,6 +6918,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C1BE1D022B58C5B7001F472B /* dyld_symbols_cache.xcconfig */;
 			buildSettings = {
+				SDKROOT = macosx;
 			};
 			name = Release;
 		};
@@ -6844,6 +6926,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C12657F1286FB94100048F94 /* dyld_inspect.xcconfig */;
 			buildSettings = {
+				SDKROOT = macosx;
 			};
 			name = Debug;
 		};
@@ -6851,6 +6934,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C12657F1286FB94100048F94 /* dyld_inspect.xcconfig */;
 			buildSettings = {
+				SDKROOT = macosx;
 			};
 			name = Release;
 		};
@@ -6861,6 +6945,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				INSTALLHDRS_SCRIPT_PHASE = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
 			};
 			name = Debug;
 		};
@@ -6871,6 +6956,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				INSTALLHDRS_SCRIPT_PHASE = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
 			};
 			name = Release;
 		};
@@ -6897,7 +6983,7 @@
 				OTHER_LDFLAGS = "-Wl,-no_warn_inits";
 				OTHER_TAPI_FLAGS = "-extra-private-header $(SRCROOT)/cache-builder/kernel_collection_builder.h";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx.internal;
+				SDKROOT = macosx;
 				SUPPORTS_TEXT_BASED_API = YES;
 				TAPI_VERIFY_MODE = Pedantic;
 			};
@@ -6923,7 +7009,7 @@
 				OTHER_LDFLAGS = "-Wl,-no_warn_inits";
 				OTHER_TAPI_FLAGS = "-extra-private-header $(SRCROOT)/cache-builder/kernel_collection_builder.h";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx.internal;
+				SDKROOT = macosx;
 				SUPPORTS_TEXT_BASED_API = YES;
 				TAPI_VERIFY_MODE = Pedantic;
 			};
@@ -6938,6 +7024,7 @@
 				GCC_OPTIMIZATION_LEVEL = 0;
 				INSTALLHDRS_COPY_PHASE = YES;
 				PRODUCT_NAME = libdyld;
+				SDKROOT = macosx;
 			};
 			name = Debug;
 		};
@@ -6949,6 +7036,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				INSTALLHDRS_COPY_PHASE = YES;
 				PRODUCT_NAME = libdyld;
+				SDKROOT = macosx;
 				ZERO_LINK = NO;
 			};
 			name = Release;
@@ -6963,6 +7051,7 @@
 					"$(inherited)",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
 			};
 			name = Debug;
 		};
@@ -6972,6 +7061,7 @@
 			buildSettings = {
 				GCC_PREPROCESSOR_DEFINITIONS = "BUILDING_NM=1";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
 			};
 			name = Release;
 		};
@@ -6994,7 +7084,7 @@
 				PRIVATE_HEADERS_FOLDER_PATH = "$(DRIVERKITROOT)/Runtime/usr/local/include/mach-o";
 				PRODUCT_NAME = dyld;
 				PUBLIC_HEADERS_FOLDER_PATH = "$(DRIVERKITROOT)/Runtime/usr/include/mach-o";
-				SDKROOT = driverkit.internal;
+				SDKROOT = driverkit;
 				SUPPORTS_TEXT_BASED_API = YES;
 				SYSTEM_FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/$(DRIVERKITROOT)/Runtime/System/Library/Frameworks",
@@ -7031,7 +7121,7 @@
 				PRIVATE_HEADERS_FOLDER_PATH = "$(DRIVERKITROOT)/Runtime/usr/local/include/mach-o";
 				PRODUCT_NAME = dyld;
 				PUBLIC_HEADERS_FOLDER_PATH = "$(DRIVERKITROOT)/Runtime/usr/include/mach-o";
-				SDKROOT = driverkit.internal;
+				SDKROOT = driverkit;
 				SUPPORTS_TEXT_BASED_API = YES;
 				SYSTEM_FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/$(DRIVERKITROOT)/Runtime/System/Library/Frameworks",
@@ -7077,6 +7167,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "dyld.UnitTests-mach-o";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
 				SUPPORTED_PLATFORMS = macosx;
 				SUPPORTS_MACCATALYST = YES;
 			};
@@ -7107,6 +7198,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "dyld.UnitTests-mach-o";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
 				SUPPORTED_PLATFORMS = macosx;
 				SUPPORTS_MACCATALYST = YES;
 			};
@@ -7134,7 +7226,7 @@
 				INSTALL_PATH = /usr/bin;
 				OTHER_CPLUSPLUSFLAGS = "$(OTHER_CFLAGS)";
 				PRODUCT_NAME = update_dyld_shared_cache;
-				SDKROOT = macosx.internal;
+				SDKROOT = macosx;
 			};
 			name = Debug;
 		};
@@ -7158,7 +7250,7 @@
 				INSTALL_PATH = /usr/bin;
 				OTHER_CPLUSPLUSFLAGS = "$(OTHER_CFLAGS)";
 				PRODUCT_NAME = update_dyld_shared_cache;
-				SDKROOT = macosx.internal;
+				SDKROOT = macosx;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Release;
@@ -7172,9 +7264,17 @@
 					arm64,
 				);
 				CODE_SIGN_IDENTITY = "-";
-				LIBRARY_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/";
+				HEADER_SEARCH_PATHS = (
+					./include,
+					/opt/homebrew/opt/llvm/include,
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(TOOLCHAIN_DIR)/usr/lib/",
+					/opt/homebrew/opt/llvm/lib,
+				);
 				MACOSX_DEPLOYMENT_TARGET = 12.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
 				SUPPORTED_PLATFORMS = "macosx iphoneos xros watchos appletvos bridgeos";
 				VERSIONING_SYSTEM = "apple-generic";
 			};
@@ -7188,9 +7288,17 @@
 					arm64,
 					x86_64,
 				);
-				LIBRARY_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/";
+				HEADER_SEARCH_PATHS = (
+					./include,
+					/opt/homebrew/opt/llvm/include,
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(TOOLCHAIN_DIR)/usr/lib/",
+					/opt/homebrew/opt/llvm/lib,
+				);
 				MACOSX_DEPLOYMENT_TARGET = 12.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
 				SUPPORTED_PLATFORMS = "macosx iphoneos xros watchos appletvos bridgeos";
 				VERSIONING_SYSTEM = "apple-generic";
 			};
@@ -7217,7 +7325,7 @@
 				GCC_THREADSAFE_STATICS = NO;
 				OTHER_CPLUSPLUSFLAGS = "$(OTHER_CFLAGS)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx.internal;
+				SDKROOT = macosx;
 				SIMULATOR_DIR_NAME = "$(PLATFORM_FAMILY_NAME_$(DEVICE_PLATFORM_NAME)) $(IPHONE_SDK_MARKETING_VERSION)";
 				USER_HEADER_SEARCH_PATHS = (
 					./dyld,
@@ -7247,7 +7355,7 @@
 				GCC_THREADSAFE_STATICS = NO;
 				OTHER_CPLUSPLUSFLAGS = "$(OTHER_CFLAGS)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx.internal;
+				SDKROOT = macosx;
 				SIMULATOR_DIR_NAME = "$(PLATFORM_FAMILY_NAME_$(DEVICE_PLATFORM_NAME)) $(IPHONE_SDK_MARKETING_VERSION)";
 				USER_HEADER_SEARCH_PATHS = (
 					./dyld,
@@ -7294,7 +7402,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_CFLAGS = "-DBUILDING_CLOSURE_UTIL=1";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx.internal;
+				SDKROOT = macosx;
 				SUPPORTED_PLATFORMS = "macosx iphoneos xros watchos appletvos bridgeos";
 				VERSIONING_SYSTEM = "apple-generic";
 			};
@@ -7329,7 +7437,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_CFLAGS = "-DBUILDING_CLOSURE_UTIL=1";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx.internal;
+				SDKROOT = macosx;
 				SUPPORTED_PLATFORMS = "macosx iphoneos xros watchos appletvos bridgeos";
 				VERSIONING_SYSTEM = "apple-generic";
 			};
@@ -7377,7 +7485,7 @@
 				);
 				MTL_ENABLE_DEBUG_INFO = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx.internal;
+				SDKROOT = macosx;
 				USER_HEADER_SEARCH_PATHS = ./testing/include;
 			};
 			name = Debug;
@@ -7420,7 +7528,7 @@
 				);
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx.internal;
+				SDKROOT = macosx;
 				USER_HEADER_SEARCH_PATHS = ./testing/include;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
@@ -7445,7 +7553,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 12.0;
 				PRODUCT_BUNDLE_IDENTIFIER = dyld.DyldProcessConfigTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx.internal;
+				SDKROOT = macosx;
 				SUPPORTED_PLATFORMS = "iphonesimulator xrsimulator iphoneos xros macosx watchos tvos";
 				TARGETED_DEVICE_FAMILY = "1,2,3,4";
 			};
@@ -7467,7 +7575,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 12.0;
 				PRODUCT_BUNDLE_IDENTIFIER = dyld.DyldProcessConfigTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx.internal;
+				SDKROOT = macosx;
 				SUPPORTED_PLATFORMS = "iphonesimulator xrsimulator iphoneos xros macosx watchos tvos";
 				TARGETED_DEVICE_FAMILY = "1,2,3,4";
 				VALIDATE_PRODUCT = YES;
@@ -7490,7 +7598,7 @@
 					"-faligned-allocation",
 				);
 				PRODUCT_NAME = dyld_shared_cache_util;
-				SDKROOT = macosx.internal;
+				SDKROOT = macosx;
 				SUPPORTED_PLATFORMS = "macosx iphoneos xros watchos appletvos bridgeos";
 				VERSIONING_SYSTEM = "apple-generic";
 			};
@@ -7512,7 +7620,7 @@
 					"-faligned-allocation",
 				);
 				PRODUCT_NAME = dyld_shared_cache_util;
-				SDKROOT = macosx.internal;
+				SDKROOT = macosx;
 				SUPPORTED_PLATFORMS = "macosx iphoneos xros watchos appletvos bridgeos";
 				VERSIONING_SYSTEM = "apple-generic";
 			};
@@ -7550,6 +7658,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = "ads.UnitTests-ld";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 			};
 			name = Debug;
@@ -7584,6 +7693,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = "ads.UnitTests-ld";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 			};
 			name = Release;
@@ -7616,6 +7726,7 @@
 					"-Wl,-exported_symbol,_dyld_shared_cache_extract_dylibs_progress",
 				);
 				PRODUCT_NAME = dsc_extractor;
+				SDKROOT = macosx;
 			};
 			name = Debug;
 		};
@@ -7646,6 +7757,7 @@
 					"-Wl,-exported_symbol,_dyld_shared_cache_extract_dylibs_progress",
 				);
 				PRODUCT_NAME = dsc_extractor;
+				SDKROOT = macosx;
 				ZERO_LINK = NO;
 			};
 			name = Release;
@@ -7669,6 +7781,7 @@
 				LD_GENERATE_MAP_FILE = YES;
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_CPLUSPLUSFLAGS = "$(OTHER_CFLAGS)";
+				SDKROOT = macosx;
 				SUPPORTED_PLATFORMS = "macosx iphoneos xros watchos appletvos bridgeos watchsimulator iphonesimulator xrsimulator appletvsimulator exclavekit.macosx exclavekit.iphoneos exclavekit.appletvos";
 				UNSTRIPPED_PRODUCT = NO;
 				USER_HEADER_SEARCH_PATHS = (
@@ -7697,6 +7810,7 @@
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				LD_GENERATE_MAP_FILE = YES;
 				OTHER_CPLUSPLUSFLAGS = "$(OTHER_CFLAGS)";
+				SDKROOT = macosx;
 				SUPPORTED_PLATFORMS = "macosx iphoneos xros watchos appletvos bridgeos watchsimulator iphonesimulator xrsimulator appletvsimulator exclavekit.macosx exclavekit.iphoneos exclavekit.appletvos";
 				UNSTRIPPED_PRODUCT = NO;
 				USER_HEADER_SEARCH_PATHS = (
@@ -7721,9 +7835,22 @@
 				INSTALLHDRS_SCRIPT_PHASE = YES;
 				IS_ZIPPERED = YES;
 				ONLY_ACTIVE_ARCH = NO;
+				"OTHER_LDFLAGS[arch=*]" = (
+					"-Wl,-no_inits",
+					"-nostdlib",
+					"$(LIBSYSTEM_LIBS)",
+					"-umbrella",
+					System,
+					"-L$(SDKROOT)/$(DRIVERKITROOT)/usr/lib/system",
+					"$(EXTRA_SECTIONS)",
+					"-Wl,-unexported_symbol,__ZNSt3*",
+					"-Wl,-upward-lcommonCrypto",
+					"$(DIRTY)",
+				);
 				PRIVATE_HEADERS_FOLDER_PATH = "/usr/local/include/mach-o";
 				PRODUCT_NAME = dyld;
 				PUBLIC_HEADERS_FOLDER_PATH = "/usr/include/mach-o";
+				SDKROOT = macosx;
 				SUPPORTED_PLATFORMS = "macosx iphoneos xros watchos appletvos bridgeos watchsimulator iphonesimulator xrsimulator appletvsimulator exclavekit.macosx exclavekit.iphoneos exclavekit.appletvos";
 				SUPPORTS_TEXT_BASED_API = YES;
 				TAPI_VERIFY_MODE = Pedantic;
@@ -7747,6 +7874,7 @@
 				PRIVATE_HEADERS_FOLDER_PATH = "/usr/local/include/mach-o";
 				PRODUCT_NAME = dyld;
 				PUBLIC_HEADERS_FOLDER_PATH = "/usr/include/mach-o";
+				SDKROOT = macosx;
 				SUPPORTED_PLATFORMS = "macosx iphoneos xros watchos appletvos bridgeos watchsimulator iphonesimulator xrsimulator appletvsimulator exclavekit.macosx exclavekit.iphoneos exclavekit.appletvos";
 				SUPPORTS_TEXT_BASED_API = YES;
 				TAPI_VERIFY_MODE = Pedantic;
@@ -7877,6 +8005,7 @@
 					"$(OTHER_CFLAGS)",
 				);
 				PRODUCT_NAME = dsc;
+				SDKROOT = macosx;
 				SUPPORTED_PLATFORMS = "macosx iphoneos xros watchos appletvos bridgeos";
 			};
 			name = Debug;
@@ -7907,6 +8036,7 @@
 					"$(OTHER_CFLAGS)",
 				);
 				PRODUCT_NAME = dsc;
+				SDKROOT = macosx;
 				SUPPORTED_PLATFORMS = "macosx iphoneos xros watchos appletvos bridgeos";
 				ZERO_LINK = NO;
 			};
@@ -7918,6 +8048,7 @@
 			buildSettings = {
 				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
 				SUPPORTED_PLATFORMS = "macosx iphoneos xros watchos appletvos bridgeos watchsimulator iphonesimulator xrsimulator appletvsimulator";
 				SYSTEM_HEADER_SEARCH_PATHS = (
 					"$(SDKROOT)/System/Library/Frameworks/System.framework/PrivateHeaders",
@@ -7935,6 +8066,7 @@
 			baseConfigurationReference = F98B35A324ED748E00DE738B /* base.xcconfig */;
 			buildSettings = {
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
 				SUPPORTED_PLATFORMS = "macosx iphoneos xros watchos appletvos bridgeos watchsimulator iphonesimulator xrsimulator appletvsimulator";
 				SYSTEM_HEADER_SEARCH_PATHS = (
 					"$(SDKROOT)/System/Library/Frameworks/System.framework/PrivateHeaders",

@@ -33,7 +33,8 @@
 #include <TargetConditionals.h>
 #if !TARGET_OS_EXCLAVEKIT
   #include <mach-o/reloc.h>
-  #include <libc_private.h>
+//  #include <libc_private.h>
+  #include <libc.h>
 #endif // !TARGET_OS_EXCLAVEKIT
 
 #include "Image.h"

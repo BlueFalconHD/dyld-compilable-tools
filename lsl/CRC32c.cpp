@@ -27,7 +27,7 @@
 
 #include <TargetConditionals.h>
 #if !TARGET_OS_EXCLAVEKIT
-  #include <System/machine/cpu_capabilities.h>
+//  #include <System/machine/cpu_capabilities.h>
 #endif
 
 #include "CRC32c.h"
@@ -47,7 +47,9 @@
 #define CRC32C_8    __builtin_arm_crc32cb
 #define ENABLE_CRC_INTRINSICS __attribute__((__target__(("crc"))))
 #if !TARGET_OS_EXCLAVEKIT
-#define CRC_HW_CHECK (*((uint32_t*)_COMM_PAGE_CPU_CAPABILITIES) & kHasARMv8Crc32)
+//#define CRC_HW_CHECK (*((uint32_t*)_COMM_PAGE_CPU_CAPABILITIES) & kHasARMv8Crc32)
+// const so we don't depend on _COMM_PAGE_CPU_CAPABILITIES (apple private framework only)
+#define CRC_HW_CHECK 1
 #else
 #define CRC_HW_CHECK 0
 #endif // !TARGET_OS_EXCLAVEKIT

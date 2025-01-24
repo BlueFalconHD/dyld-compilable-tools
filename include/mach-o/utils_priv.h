@@ -78,8 +78,7 @@ __API_AVAILABLE(macos(13.0), ios(16.0), tvos(16.0), watchos(8.0)) ;
  *          EFTYPE -  mh content is not a mach-o
  *          EBADMACHO - mh content is a mach-o file, but it is malformed
  */
-extern int macho_for_each_dependent_dylib(const struct mach_header* _Nonnull mh, size_t mappedSize, void (^ _Nonnull callback)(const char* _Nonnull loadPath, const char* _Nonnull attributes, bool* _Nonnull stop))
-SPI_AVAILABLE(macos(15.0), ios(18.0), tvos(18.0), watchos(11.0));
+extern int macho_for_each_dependent_dylib(const struct mach_header* _Nonnull mh, size_t mappedSize, void (^ _Nonnull callback)(const char* _Nonnull loadPath, const char* _Nonnull attributes, bool* _Nonnull stop))/* SPI_AVAILABLE(macos(15.0), ios(18.0), tvos(18.0), watchos(11.0))*/;
 
 /*!
  * @function macho_for_each_imported_symbol
@@ -106,8 +105,7 @@ SPI_AVAILABLE(macos(15.0), ios(18.0), tvos(18.0), watchos(11.0));
  *          EFTYPE -  mh content is not a mach-o
  *          EBADMACHO - mh content is a mach-o file, but it is malformed
  */
-extern int macho_for_each_imported_symbol(const struct mach_header* _Nonnull mh, size_t mappedSize, void (^ _Nonnull callback)(const char* _Nonnull symbolName, const char* _Nonnull libraryPath, bool weakImport, bool* _Nonnull stop))
-SPI_AVAILABLE(macos(15.0), ios(18.0), tvos(18.0), watchos(11.0));
+extern int macho_for_each_imported_symbol(const struct mach_header* _Nonnull mh, size_t mappedSize, void (^ _Nonnull callback)(const char* _Nonnull symbolName, const char* _Nonnull libraryPath, bool weakImport, bool* _Nonnull stop))/* SPI_AVAILABLE(macos(15.0), ios(18.0), tvos(18.0), watchos(11.0))*/;
 
 /*!
  * @function macho_for_each_exported_symbol
@@ -133,8 +131,7 @@ SPI_AVAILABLE(macos(15.0), ios(18.0), tvos(18.0), watchos(11.0));
  *          EFTYPE -  mh content is not a mach-o
  *          EBADMACHO - mh content is a mach-o file, but it is malformed
  */
-extern int macho_for_each_exported_symbol(const struct mach_header* _Nonnull mh, size_t mappedSize, void (^ _Nonnull callback)(const char* _Nonnull symbolName, const char* _Nonnull attributes, bool* _Nonnull stop))
-SPI_AVAILABLE(macos(15.0), ios(18.0), tvos(18.0), watchos(11.0));
+extern int macho_for_each_exported_symbol(const struct mach_header* _Nonnull mh, size_t mappedSize, void (^ _Nonnull callback)(const char* _Nonnull symbolName, const char* _Nonnull attributes, bool* _Nonnull stop))/* SPI_AVAILABLE(macos(15.0), ios(18.0), tvos(18.0), watchos(11.0))*/;
 
 
 /*!
@@ -160,8 +157,7 @@ SPI_AVAILABLE(macos(15.0), ios(18.0), tvos(18.0), watchos(11.0));
  *          EFTYPE -  mh content is not a mach-o
  *          EBADMACHO - mh content is a mach-o file, but it is malformed
  */
-extern int macho_for_each_defined_rpath(const struct mach_header* _Nonnull mh, size_t mappedSize, void (^ _Nonnull callback)(const char* _Nonnull rpath, bool* _Nonnull stop))
-SPI_AVAILABLE(macos(15.0), ios(18.0), tvos(18.0), watchos(11.0));
+extern int macho_for_each_defined_rpath(const struct mach_header* _Nonnull mh, size_t mappedSize, void (^ _Nonnull callback)(const char* _Nonnull rpath, bool* _Nonnull stop))/* SPI_AVAILABLE(macos(15.0), ios(18.0), tvos(18.0), watchos(11.0))*/;
 
 
 #if __cplusplus

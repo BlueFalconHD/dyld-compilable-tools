@@ -29,7 +29,7 @@
 #include <errno.h>
 #include <TargetConditionals.h>
 #if !TARGET_OS_EXCLAVEKIT
-  #include <_simple.h>
+#include "_simple.h"
 #endif // !TARGET_OS_EXCLAVEKIT
 
 #include <mach/machine.h>
@@ -67,7 +67,7 @@ Error::~Error()
     *_strBuf = '\0';
 #else
    if ( _buffer )
-        _simple_sfree(_buffer);
+        _simple_sfree((SimpleString *)_buffer);
     _buffer = nullptr;
 #endif
 }
@@ -81,7 +81,7 @@ Error::Error(const char* format, ...)
 #else
     if ( _buffer == nullptr )
         _buffer = _simple_salloc();
-    _simple_vsprintf(_buffer, format, list);
+    _simple_vsprintf((SimpleString*)_buffer, format, list);
 #endif
     va_end(list);
 }
@@ -93,7 +93,7 @@ Error::Error(const char* format, va_list list)
 #else
     if ( _buffer == nullptr )
         _buffer = _simple_salloc();
-    _simple_vsprintf(_buffer, format, list);
+    _simple_vsprintf((SimpleString*)_buffer, format, list);
 #endif
 }
 
@@ -102,7 +102,7 @@ const char* Error::message() const
 #if TARGET_OS_EXCLAVEKIT
     return _strBuf;
 #else
-    return _buffer ? _simple_string(_buffer) : "";
+    return _buffer ? _simple_string((SimpleString*)_buffer) : "";
 #endif
 }
 
@@ -113,7 +113,7 @@ bool Error::messageContains(const char* subString) const
 #if TARGET_OS_EXCLAVEKIT
     return (strstr(_strBuf, subString) != nullptr);
 #else
-    return (strstr(_simple_string(_buffer), subString) != nullptr);
+    return (strstr(_simple_string((SimpleString*)_buffer), subString) != nullptr);
 #endif
 }
 
@@ -127,10 +127,10 @@ void Error::append(const char* format, ...)
    va_end(list);
 #else
     assert(_buffer != nullptr);
-    _simple_sresize(_buffer);   // move insertion point to end of existing string in buffer
+    _simple_sresize((SimpleString*)_buffer);   // move insertion point to end of existing string in buffer
     va_list list;
     va_start(list, format);
-    _simple_vsprintf(_buffer, format, list);
+    _simple_vsprintf((SimpleString*)_buffer, format, list);
     va_end(list);
 #endif
 }
